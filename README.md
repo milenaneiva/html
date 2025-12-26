@@ -1,21 +1,49 @@
-# Desafio de Projeto da DIO: Estrutura Básica HTML
+# 🚀 Meus Estudos de Desenvolvimento Web
 
-Este projeto foi desenvolvido como parte de um desafio prático de programação. O objetivo principal foi criar uma página web utilizando apenas HTML puro, explorando diversas tags de formatação e estrutura semântica.
+Bem-vindo ao meu repositório de aprendizado! Aqui concentro todos os exercícios práticos e desafios desenvolvidos durante minha jornada para me tornar um desenvolvedor Front-end.
 
-## 🎯 Objetivos
-- Praticar a sintaxe básica do HTML5.
-- Utilizar tags de hierarquia (`h1` a `h6`).
-- Aplicar formatações de texto (`strong`, `em`, `mark`, `del`, etc.).
-- Criar listas ordenadas e não ordenadas.
-- Pesquisar e implementar novas tags (`abbr`, `font`).
+Este repositório documenta minha evolução no **HTML5**, desde a estrutura semântica básica até a criação de sites com múltiplas páginas.
+
+---
+
+## 📂 Projetos Realizados
+
+### 1️⃣ Desafio: Diário de Estudos
+**Objetivo:** Criar uma página única utilizando o máximo de tags HTML aprendidas para fixação de sintaxe.
+* **Conceitos:** Tags de texto (`h1-h6`, `p`, `strong`, `em`), Listas (`ol`, `ul`), Citações e Pesquisa de tags obsoletas (`font`) e novas (`del`, `abbr`).
+* **Status:** Concluído ✅
+
+### 2️⃣ Desafio Final: Clínica Saúde Total
+**Objetivo:** Desenvolver um website completo para uma clínica médica fictícia, simulando um cenário real de trabalho.
+* **Estrutura:** Site com 4 páginas interligadas (Home, Sobre, Horários, Contato).
+* **Conceitos:**
+    * Navegação entre páginas (Links internos).
+    * Tabelas complexas (Mesclagem de linhas e colunas).
+    * Mídias (Imagens e Vídeo).
+    * Integração externa (Iframe do Google Maps).
+    * Formulários completos (Inputs, Textarea, Botões).
+* **Status:** Concluído ✅
+
+### 3️⃣ Desafio: Wiki Semântica
+**Objetivo:** Recriar o layout de uma página de enciclopédia (estilo Wikipedia) focando estritamente em **Semântica** e **Acessibilidade**, com um visual modernizado.
+* **Conceitos Novos:**
+    * Tags estruturais (`main`, `article`, `section`, `aside`).
+    * Imagens com legenda semântica (`figure`, `figcaption`).
+    * Elementos interativos nativos (`details`, `summary`).
+    * Atributos de acessibilidade (`aria-label`).
+    * Layout básico com CSS Flexbox (Inline).
+* **Status:** Concluído ✅
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
-- HTML5
+* **HTML5** (Semântico e Estrutural)
+* **Git & GitHub** (Versionamento e Documentação)
 
-## 📚 Tags Praticadas
-O projeto reúne exemplos práticos das seguintes tags:
-- Estruturais: `<html>`, `<head>`, `<body>`, `<blockquote>`
-- Texto: `<p>`, `<strong>`, `<i>`, `<u>`, `<small>`, `<sub>`, `<sup>`
-- Listas: `<ol>`, `<ul>`, `<li>`
-- Novas tags (Pesquisa): `<del>`, `<abbr>`, `<font>`
-- Outros: `<a>`, `<hr>`
+---
+
+## 📢 Contato
+Este portfólio está em constante construção. Sinta-se à vontade para ver o código e dar sugestões!
+
+---
+*Desenvolvido com dedicação durante meus estudos de programação.* 💻
