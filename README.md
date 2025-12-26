@@ -24,6 +24,16 @@ Este repositório documenta minha evolução no **HTML5**, desde a estrutura sem
     * Formulários completos (Inputs, Textarea, Botões).
 * **Status:** Concluído ✅
 
+### 3️⃣ Desafio: Wiki Semântica
+**Objetivo:** Recriar o layout de uma página de enciclopédia (estilo Wikipedia) focando estritamente em **Semântica** e **Acessibilidade**, com um visual modernizado.
+* **Conceitos Novos:**
+    * Tags estruturais (`main`, `article`, `section`, `aside`).
+    * Imagens com legenda semântica (`figure`, `figcaption`).
+    * Elementos interativos nativos (`details`, `summary`).
+    * Atributos de acessibilidade (`aria-label`).
+    * Layout básico com CSS Flexbox (Inline).
+* **Status:** Concluído ✅
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
