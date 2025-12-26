@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tim Berners-Lee - WikiDev</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; margin: 0; background-color: #f4f4f9; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        /* Layout Moderno: Conteúdo na esquerda, InfoBox na direita */
+        .layout-grid { display: flex; gap: 40px; flex-wrap: wrap; }
+        .main-content { flex: 3; min-width: 300px; } /* Ocupa 3 partes */
+        .sidebar { flex: 1; min-width: 250px; }      /* Ocupa 1 parte */
+        
+        /* Estilos visuais simples */
+        header { background: #2c3e50; color: white; padding: 1rem 0; margin-bottom: 2rem; }
+        nav a { color: white; margin-right: 15px; text-decoration: none; font-weight: bold; }
+        .infobox { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .card { background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav aria-label="Menu Principal">
+                <strong>WikiDev</strong> | 
+                <a href="#">Artigo</a>
+                <a href="#">Discussão</a>
+                <a href="#">Ler</a>
+                <a href="#">Editar</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container layout-grid">
+
+        <main class="main-content">
+            <article>
+                <header>
+                    <h1>Tim Berners-Lee</h1>
+                    <p><em>O Pai da World Wide Web</em></p>
+                    <hr>
+                </header>
+
+                <section id="introducao">
+                    <p>
+                        <strong>Sir Timothy John Berners-Lee</strong> (Londres, 8 de junho de 1955) é um físico britânico, cientista da computação e professor do MIT. Ele é creditado como o inventor da <abbr title="World Wide Web">WWW</abbr> (World Wide Web).
+                    </p>
+                </section>
+
+                <section id="biografia" class="card">
+                    <h2>Biografia e Carreira</h2>
+                    <details open>
+                        <summary style="cursor: pointer; color: #0056b3;"><strong>Expandir história</strong></summary>
+                        <p>
+                            Em 1989, Berners-Lee propôs um sistema de gerenciamento de informações global. Ele implementou a primeira comunicação bem-sucedida entre um cliente HTTP e um servidor através da Internet.
+                        </p>
+                        <p>
+                            Ele criou as três tecnologias fundamentais que sustentam a web até hoje:
+                        </p>
+                        <ul>
+                            <li><strong>HTML:</strong> Linguagem de Marcação de Hipertexto.</li>
+                            <li><strong>URL:</strong> Localizador Uniforme de Recursos.</li>
+                            <li><strong>HTTP:</strong> Protocolo de Transferência de Hipertexto.</li>
+                        </ul>
+                    </details>
+                </section>
+
+                <section id="reconhecimento" class="card">
+                    <h2>Prêmios e Honrarias</h2>
+                    <p>
+                        Em 2004, foi nomeado cavaleiro pela <cite>Rainha Elizabeth II</cite> por seu trabalho pioneiro.
+                    </p>
+                    <blockquote>
+                        "A web não conecta apenas máquinas, ela conecta pessoas."
+                        <footer>— <cite>Tim Berners-Lee</cite></footer>
+                    </blockquote>
+                </section>
+            </article>
+        </main>
+
+        <aside class="sidebar">
+            <div class="infobox">
+                <figure style="margin: 0; text-align: center;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg" 
+                         alt="Foto de Tim Berners-Lee sorrindo usando terno" 
+                         width="100%" 
+                         style="border-radius: 5px;">
+                    <figcaption style="font-size: 0.8rem; margin-top: 5px; color: #666;">
+                        Tim Berners-Lee em 2014
+                    </figcaption>
+                </figure>
+                
+                <h3>Dados Rápidos</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><strong>Nascimento:</strong> 8 de junho de 1955</li>
+                    <li><strong>Nacionalidade:</strong> Britânico</li>
+                    <li><strong>Conhecido por:</strong> Inventor da WWW</li>
+                    <li><strong>Instituição:</strong> W3C, MIT</li>
+                </ul>
+
+                <hr>
+                <h4>Links Externos</h4>
+                <nav aria-label="Links Relacionados">
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="https://w3.org" target="_blank" rel="noopener noreferrer">W3C Oficial</a></li>
+                        <li><a href="https://twitter.com/timberners_lee" target="_blank" rel="noopener noreferrer">Twitter Oficial</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+
+    </div>
+
+    <footer style="text-align: center; padding: 20px; margin-top: 40px; border-top: 1px solid #ccc;">
+        <p><small>Este conteúdo é um exercício educacional baseado na estrutura da Wikipedia.</small></p>
+        <p>&copy; 2023 WikiDev Project.</p>
+    </footer>
+
+</body>
+</html>
